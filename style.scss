@@ -190,7 +190,7 @@
                 .section_title {
                     color: white;
                     font-family: 'Courier New', Courier, monospace;
-                    font-size: clamp(1rem, 1.7rem, 3rem);
+                    font-size: clamp(1rem, 2rem, 3rem);
                     font-weight: bold;
                 }
                 .section_photo {
@@ -201,7 +201,7 @@
                 }
                 .section_words {
                     font-family: 'Courier New', Courier, monospace;
-                    font-size: clamp(.5rem, .9rem, 2rem);
+                    font-size: clamp(.5rem, 1.2rem, 2rem);
                     color: white;
                     text-align: center;
                 }
@@ -210,56 +210,64 @@
     }
 }
 
-// DESKTOP MONITORS
-
-// LARGE
-@media (min-width: 951px) and (max-width: 1279px) {
-    body {
-        background-color: darkgreen;
-        .main_container {
-            max-width: 1024px;
-            .navbar {
-                display: flex;
-            }
-            // .navbar {
-            //     border: 1px solid red;
-            //     nav {
-            //         ul {
-            //             display: flex;
-            //             gap: 5vw;
-            //             li {
-            //                 color: white;
-            //                 font-family: 'Courier New', Courier, monospace;
-            //                 font-weight: bold;
-            //                 list-style: none;
-            //             }
-            //         }
-            //     }
-            // }
-        }
-    }
-}
-// X LARGE
-@media (min-width: 1280px) and (max-width: 1535px) {
-    body {
-        background-color: darkblue;
-        .main_container {
-            max-width: 1280px;
-            .navbar {
-                display: flex;
-            }
-        }
-    }
-}
 
 // XX LARGE 
-@media (min-width: 1536px) {
+@media (min-width: 1080px) {
     body {
         background-color: black;
+        // background-color: aqua;
         .main_container {
-            .navbar {
+            nav {
+                ul {
+                    display: flex;
+                    gap: 5vw;
+                    li {
+                        color: white;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-weight: bold;
+                        list-style: none;
+                        font-size: clamp(2rem, 3rem, 4rem);
+                    }
+                }
+            }
+            .section_one {
+                border: 1px solid firebrick;
                 display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5vw;
+                margin: 5px 5px;
+                height: 90%;
+                .section_title {
+                    color: white;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: clamp(1rem, 5rem, 6rem);
+                    font-weight: bold;
+                }
+                .section_photo {
+                    #logo_one {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+                .section_words {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: clamp(.5rem, 3rem, 4rem);
+                    color: white;
+                    text-align: center;
+                }
             }
         }
     }
 }
+
+// @media (min-width: 1536px) {
+//     body {
+//         background-color: black;
+//         .main_container {
+//             .navbar {
+//                 display: flex;
+//             }
+//         }
+//     }
+// }
