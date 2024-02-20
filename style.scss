@@ -261,13 +261,53 @@
     }
 }
 
-// @media (min-width: 1536px) {
-//     body {
-//         background-color: black;
-//         .main_container {
-//             .navbar {
-//                 display: flex;
-//             }
-//         }
-//     }
-// }
+// XXX LARGE
+@media (min-width: 1536px) {
+    body {
+        background-color: black;
+        .main_container {
+            .main_container {
+                nav {
+                    ul {
+                        display: flex;
+                        gap: 5vw;
+                        li {
+                            color: white;
+                            font-family: 'Courier New', Courier, monospace;
+                            font-weight: bold;
+                            list-style: none;
+                            font-size: clamp(2rem, 3rem, 4rem);
+                        }
+                    }
+                }
+                .section_one {
+                    border: 1px solid plum;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5vw;
+                    margin: 5px 5px;
+                    height: 90%;
+                    .section_title {
+                        color: white;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: clamp(1rem, 5rem, 6rem);
+                        font-weight: bold;
+                    }
+                    .section_photo {
+                        #logo_one {
+                            width: 300px;
+                            height: 300px;
+                        }
+                    }
+                    .section_words {
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: clamp(.5rem, 3rem, 4rem);
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
