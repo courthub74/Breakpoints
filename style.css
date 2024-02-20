@@ -5,227 +5,190 @@
   align-items: center;
 }
 * body .main_container {
-  width: 90%;
-  height: 95vh;
-  padding: 0.5rem, 0.5rem;
+  width: 100%;
+  height: 100vh;
   border: 1px solid red;
-  margin: 0 auto;
 }
 
-@media (min-width: 280px) {
-  .main_container {
-    max-width: 280px;
+@media (max-width: 285px) {
+  body .main_container .navbar {
+    display: none;
   }
-  .main_container .section_one {
+  body .main_container .section_one {
     border: 1px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2vh 2vw;
     margin: 5px 5px;
     height: 90%;
   }
-  .main_container .section_one .section_title {
+  body .main_container .section_one .section_title {
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.7rem;
     font-weight: bold;
   }
-  .main_container .section_one .section_photo #logo_one {
-    width: 105px;
-    height: 105px;
+  body .main_container .section_one .section_photo #logo_one {
+    width: 100px;
+    height: 100px;
   }
-  .main_container .section_one .section_words {
+  body .main_container .section_one .section_words {
     font-family: "Courier New", Courier, monospace;
     font-size: 0.9rem;
     color: white;
     text-align: center;
   }
 }
-@media (min-width: 475px) {
-  .main_container {
-    max-width: 475px;
+@media (min-width: 286px) and (max-width: 474px) {
+  body .main_container .navbar {
+    display: none;
   }
-  .main_container .section_one {
-    border: 1px solid teal;
+  body .main_container .section_one {
+    border: 1px solid lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
+    margin: 5px 5px;
     height: 90%;
   }
-  .main_container .section_one .section_title {
+  body .main_container .section_one .section_title {
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: bold;
   }
-  .main_container .section_one .section_photo #logo_one {
-    width: 110px;
-    height: 110px;
+  body .main_container .section_one .section_photo #logo_one {
+    width: 100px;
+    height: 100px;
   }
-  .main_container .section_one .section_words {
+  body .main_container .section_one .section_words {
     font-family: "Courier New", Courier, monospace;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
     text-align: center;
   }
 }
-@media (min-width: 640px) {
-  .main_container {
-    max-width: 640px;
+@media (min-width: 475px) and (max-width: 639px) {
+  body {
+    background-color: aqua;
   }
-  .main_container .section_one {
-    border: 1px solid darkgoldenrod;
+  body .main_container .navbar {
+    display: none;
+  }
+  body .main_container .section_one {
+    border: 1px solid hotpink;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
+    margin: 5px 5px;
     height: 90%;
   }
-  .main_container .section_one .section_title {
+  body .main_container .section_one .section_title {
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
   }
-  .main_container .section_one .section_photo #logo_one {
-    width: 120px;
-    height: 120px;
+  body .main_container .section_one .section_photo #logo_one {
+    width: 100px;
+    height: 100px;
   }
-  .main_container .section_one .section_words {
+  body .main_container .section_one .section_words {
     font-family: "Courier New", Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     color: white;
     text-align: center;
   }
 }
-@media (min-width: 768px) {
-  .main_container {
-    max-width: 768px;
+@media (min-width: 640px) and (max-width: 767px) {
+  body .main_container .navbar {
+    display: none;
   }
-  .main_container .section_one {
-    border: 1px solid darkmagenta;
+  body .main_container .section_one {
+    border: 1px solid hotpink;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
+    gap: 5vw;
+    margin: 5px 5px;
     height: 90%;
   }
-  .main_container .section_one .section_title {
+  body .main_container .section_one .section_title {
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
   }
-  .main_container .section_one .section_photo #logo_one {
-    width: 125px;
-    height: 125px;
+  body .main_container .section_one .section_photo #logo_one {
+    width: 100px;
+    height: 100px;
   }
-  .main_container .section_one .section_words {
+  body .main_container .section_one .section_words {
     font-family: "Courier New", Courier, monospace;
-    font-size: 1.8rem;
+    font-size: 0.9rem;
     color: white;
     text-align: center;
   }
 }
-@media (min-width: 1024px) {
-  .main_container {
+@media (min-width: 768px) and (max-width: 950px) {
+  body .main_container .navbar {
+    display: none;
+  }
+  body .main_container .section_one {
+    border: 1px solid hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 5px 5px;
+    height: 90%;
+  }
+  body .main_container .section_one .section_title {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  body .main_container .section_one .section_photo #logo_one {
+    width: 100px;
+    height: 100px;
+  }
+  body .main_container .section_one .section_words {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+  }
+}
+@media (min-width: 951px) and (max-width: 1279px) {
+  body {
+    background-color: darkgreen;
+  }
+  body .main_container {
     max-width: 1024px;
   }
-  .main_container .section_one {
-    border: 1px solid lightsalmon;
+  body .main_container .navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
-    height: 90%;
-  }
-  .main_container .section_one .section_title {
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 2.8rem;
-    font-weight: bold;
-  }
-  .main_container .section_one .section_photo #logo_one {
-    width: 170px;
-    height: 170px;
-  }
-  .main_container .section_one .section_words {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
   }
 }
-@media (min-width: 1280px) {
-  .main_container {
+@media (min-width: 1280px) and (max-width: 1535px) {
+  body {
+    background-color: darkblue;
+  }
+  body .main_container {
     max-width: 1280px;
   }
-  .main_container .section_one {
-    border: 1px solid greenyellow;
+  body .main_container .navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
-    height: 90%;
-  }
-  .main_container .section_one .section_title {
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 3rem;
-    font-weight: bold;
-  }
-  .main_container .section_one .section_photo #logo_one {
-    width: 190px;
-    height: 190px;
-  }
-  .main_container .section_one .section_words {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
   }
 }
 @media (min-width: 1536px) {
-  .main_container {
-    max-width: 1536px;
+  body {
+    background-color: black;
   }
-  .main_container .section_one {
-    border: 1px solid greenyellow;
+  body .main_container .navbar {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-    margin: 2vh 2vw;
-    height: 90%;
-  }
-  .main_container .section_one .section_title {
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  .main_container .section_one .section_photo #logo_one {
-    width: 200px;
-    height: 200px;
-  }
-  .main_container .section_one .section_words {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
